@@ -1,3 +1,4 @@
+import 'package:delivery_app/presentation/views/deliveries/map_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text("Delivery App")),
+        body: MapView(),
       )
     );
   }
